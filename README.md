@@ -1,25 +1,19 @@
-# Omid Reyhanigalangashi — Personal Website
+# Personal website — Omid Reyhanigalangashi
 
-A responsive, static professional academic and engineering portfolio, ready for GitHub Pages. No framework or build process required.
+A responsive static personal portfolio designed for GitHub Pages.
 
-## Preview locally
+## Deploy
 
-Open `index.html` in a browser. All files work offline except external destination links.
+1. Create or open your GitHub Pages repository. For a user site, its name must be `YOUR_GITHUB_USERNAME.github.io`.
+2. Upload `index.html`, `style.css`, `script.js`, and the `images` folder to the repository root.
+3. In **Settings → Pages**, select **Deploy from a branch**, branch **main**, folder **/(root)**, and save.
+4. Your site will appear at `https://YOUR_GITHUB_USERNAME.github.io/` after GitHub finishes publishing.
 
-## Publish to GitHub Pages
+## Edit
 
-1. Sign in to GitHub and create a **public** repository named `YOUR_USERNAME.github.io` (substitute your actual GitHub username).
-2. Upload `index.html`, `styles.css`, and `script.js` to the repository's **root** directory. (Do not upload the enclosing folder as an extra level.)
-3. In **Settings → Pages**, select **Deploy from a branch**, `main`, and `/ (root)`; click **Save**.
-4. Wait a few minutes and visit `https://YOUR_USERNAME.github.io`.
-
-## Customize before publishing
-
-- Confirm your name, biography, job title, and email in `index.html`.
-- Replace the Google Scholar, LinkedIn, and GitHub **homepage** links with your own profile URLs.
-- Verify the exact titles, coauthors, venue, dates, and DOI links of publications. The 2024 publication currently has an explicitly marked approximate title.
-- To add a downloadable CV, put `cv.pdf` in the repository root and add `<a href="cv.pdf">Download CV</a>` where desired.
-- Optionally add a professional headshot and photographs of research systems, with permission to publish them.
-- Edit colors, spacing, and typography in `styles.css`.
-
-This site deliberately avoids inventing profile URLs, full citations, and achievements that have not been verified.
+- Update text and links in `index.html`.
+- Update styling in `style.css`.
+- The portrait is `images/profile.jpg` and Islamic Azad University emblem is `images/islamic-azad.png`.
+- The Alabama monogram is a typographic placeholder, **not an official university logo**. Replace it with an approved logo asset if desired.
+- Verify your GitHub username and email before publishing. The current GitHub link is a best-effort placeholder.
+- The site uses Google Fonts with local system-font fallbacks.
